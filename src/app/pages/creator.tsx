@@ -6,7 +6,7 @@ import { FolderKanban, MonitorCog, NotebookPen } from "lucide-react";
 
 export default function Creator() {
   return (
-    <div className="flex justify-center items-center mt-20 mb-20">
+    <div className="flex justify-center items-center mt-20">
       <div className="w-8/12">
         <h1 className="text-4xl text-center text-white font-bold">Pangripto</h1>
 

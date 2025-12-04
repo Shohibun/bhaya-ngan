@@ -24,13 +24,13 @@ export default function Navbar() {
         {/* MENU DESKTOP */}
         <div className="hidden md:flex items-center gap-6">
           <Link href="/" className="font-bold">
-            Home
+            Serambi
           </Link>
           <Link href="/about" className="hover:font-bold">
-            About
+            Perkara
           </Link>
           <Link href="/contact" className="hover:font-bold">
-            Contact
+            Guneman
           </Link>
         </div>
 
@@ -45,13 +45,13 @@ export default function Navbar() {
         <div className="md:hidden bg-white shadow-lg border-t">
           <div className="flex flex-col p-4 gap-4">
             <Link href="/" className="font-bold">
-              Home
+              Serambi
             </Link>
             <Link href="/about" className="hover:font-bold">
-              About
+              Perkara
             </Link>
             <Link href="/contact" className="hover:font-bold">
-              Contact
+              Guneman
             </Link>
           </div>
         </div>
