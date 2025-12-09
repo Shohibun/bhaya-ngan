@@ -26,11 +26,14 @@ export default function Navbar() {
           <Link href="/" className="font-bold">
             Serambi
           </Link>
-          <Link href="/about" className="hover:font-bold">
+          <Link href="#about" className="hover:font-bold">
             Perkara
           </Link>
-          <Link href="/contact" className="hover:font-bold">
-            Guneman
+          <Link href="#creator" className="hover:font-bold">
+            Pangripto
+          </Link>
+          <Link href="#content" className="hover:font-bold">
+            Karya
           </Link>
         </div>
 
@@ -47,11 +50,14 @@ export default function Navbar() {
             <Link href="/" className="font-bold">
               Serambi
             </Link>
-            <Link href="/about" className="hover:font-bold">
+            <Link href="#about" className="hover:font-bold">
               Perkara
             </Link>
-            <Link href="/contact" className="hover:font-bold">
-              Guneman
+            <Link href="#creator" className="hover:font-bold">
+              Pangripto
+            </Link>
+            <Link href="#content" className="hover:font-bold">
+              Karya
             </Link>
           </div>
         </div>

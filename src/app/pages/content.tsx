@@ -1,7 +1,7 @@
 import ReactPlayer from "react-player";
 export default function Content() {
   return (
-    <div className="flex justify-center items-center mt-20">
+    <div id="content" className="flex justify-center items-center mt-20">
       <div className="w-8/12">
         <h1 className="text-4xl text-center text-white font-bold">Karya</h1>
 
