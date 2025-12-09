@@ -14,7 +14,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 md:px-8 h-16 flex items-center justify-between">
         {/* LOGO */}
         <div className="flex justify-center items-center">
-          <Image src={Icon} alt="Icon" className="w-10 h-10" />
+          <Image src={Icon} alt="Icon" className="w-10 h-10" priority />
 
           <Link href="/" className=" text-xl font-bold">
             Bhaya
