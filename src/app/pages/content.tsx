@@ -5,7 +5,7 @@ export default function Content() {
       <div className="w-8/12">
         <h1 className="text-4xl text-center text-white font-bold">Karya</h1>
 
-        <div className="grid grid-cols-2 gap-4 mt-8">
+        <div className="grid md:grid-cols-2 gap-4 mt-8">
           <div className="col-span-1 border-2">
             <ReactPlayer
               src="https://youtu.be/aeHVsjkg-vg?si=iNBFd2mywB2kScrc"

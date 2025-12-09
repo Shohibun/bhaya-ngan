@@ -10,7 +10,7 @@ export default function Creator() {
       <div className="w-8/12">
         <h1 className="text-4xl text-center text-white font-bold">Pangripto</h1>
 
-        <div className="grid grid-cols-3 gap-4 mt-8">
+        <div className="grid md:grid-cols-3 gap-4 mt-8">
           <div className="col-span-1">
             <Image
               src={Afin}
@@ -31,7 +31,7 @@ export default function Creator() {
             </p>
           </div>
 
-          <div className="col-span-1">
+          <div className="col-span-1 mt-5 md:mt-0">
             <Image
               src={Rino}
               alt="Rino"
@@ -50,7 +50,7 @@ export default function Creator() {
             </p>
           </div>
 
-          <div className="col-span-1">
+          <div className="col-span-1 mt-5 md:mt-0">
             <Image
               src={Ibun}
               alt="Ibun"

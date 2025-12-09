@@ -2,7 +2,7 @@ import { Signature } from "lucide-react";
 
 export default function About() {
   return (
-    <div className="flex justify-center items-center mt-96 pt-12">
+    <div className="flex justify-center items-center md:mt-96 mt-72 pt-12">
       <div className="w-6/12">
         <Signature className="text-white mx-auto w-20 h-20" />
 
